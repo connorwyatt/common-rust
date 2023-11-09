@@ -1,0 +1,25 @@
+[workspace]
+resolver = "2"
+members = [
+    "eventstore",
+    "postgres",
+    "server",
+    "tracing"
+]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+
+[workspace.dependencies]
+async-trait = "0.1.74"
+axum = "0.6.20"
+eventstore = "2.3.0"
+sqlx = "0.7.2"
+tokio = "1.33.0"
+tower = "0.4.13"
+tower-http = "0.4.4"
+tracing = "0.1.40"
+tracing-appender = "0.2.2"
+tracing-subscriber = "0.3.17"
+uuid = "1.5.0"
