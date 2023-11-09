@@ -1,5 +1,5 @@
 use async_trait::async_trait;
-use eventstore::ResolvedEvent;
+use eventstore_client::ResolvedEvent;
 
 pub type HandlerResult = Result<(), HandlerError>;
 

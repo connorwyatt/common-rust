@@ -3,10 +3,9 @@ use std::{
     time::Instant,
 };
 
-use eventstore::{
+use eventstore_client::{
     AppendToStreamOptions,
     Client,
-    Error,
     ExpectedRevision,
     ReadStreamOptions,
     ResolvedEvent,

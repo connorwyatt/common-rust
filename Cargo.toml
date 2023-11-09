@@ -14,7 +14,7 @@ version = "0.1.0"
 [workspace.dependencies]
 async-trait = "0.1.74"
 axum = "0.6.20"
-eventstore = "2.3.0"
+eventstore_client = { version = "2.3.0", package = "eventstore" }
 sqlx = "0.7.2"
 tokio = "1.33.0"
 tower = "0.4.13"

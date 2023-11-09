@@ -5,6 +5,6 @@ version.workspace = true
 
 [dependencies]
 async-trait = { workspace = true }
-eventstore = { workspace = true }
+eventstore_client = { workspace = true }
 tokio = { workspace = true }
 tracing = { workspace = true }
